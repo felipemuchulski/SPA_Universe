@@ -1,4 +1,7 @@
 export class Router {
+
+  routes = {}
+  
   add(routerName, page) {
     this.routes[routerName] = page;
   }
